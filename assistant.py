@@ -105,5 +105,8 @@ if __name__ == "__main__":
             movie = os.listdir(dir)
             print(movie)
             os.startfile(os.path.join(dir,movie[random.randint(1,9)]))
+
+    
+            
              
         
