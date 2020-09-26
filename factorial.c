@@ -1,7 +1,7 @@
 #include<stdio.h>
 int factorial(int x);
 int main(){
-    int a = 0;
+    int a;
     printf("Enter the you want to know the factorial\n");
     scanf("%d" , &a);
     printf("The value of factorial %d is %d",a,factorial(a));
