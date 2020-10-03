@@ -99,12 +99,12 @@ if __name__ == "__main__":
             print("Most Welcome sir!")
             speak("Most Welcome sir")
             exit()
-        elif 'play movies' in query:
+        elif 'play movie' in query:
             dir = 'D:\\movies'
             speak('okay sir')
             movie = os.listdir(dir)
             print(movie)
-            os.startfile(os.path.join(dir,movie[random.randint(3,15)]))
+            os.startfile(os.path.join(dir,movie[random.randint(3,17)]))
 
     
             
