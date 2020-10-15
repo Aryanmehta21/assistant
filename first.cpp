@@ -50,13 +50,50 @@
 //     }
 //     return 0;
 // }
-#include<iostream>
+// #include<iostream>
 
-using namespace std;
+// using namespace std;
 
-int main(){
-    for(int i=1;i<=10;i++){
-        cout<<i*6<<endl;
-    }
-    return 0;
-}
+// int main(){
+//     for(int i=1;i<=10;i++){
+//         cout<<i*6<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+
+
+// #include<iostream>
+
+// using namespace std;
+
+// int main(){
+//     int a,b,c;
+
+//     cin>>a>>b>>c;
+
+//     if(a>b){
+//         if(a>c){
+//             cout<<a<<endl;
+
+//         }
+
+//     }
+//     else
+//     {
+//         if(b>c){
+//             cout<<b<<endl;
+//         }
+//         else
+//         {
+//             cout<<c<<endl;
+//         }
+        
+//     }
+    
+
+//     return 0;
+// }
+

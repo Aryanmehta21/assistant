@@ -82,7 +82,7 @@ if __name__ == "__main__":
             speak('okay sir')
             songs = os.listdir(Dir)
             print(songs)
-            os.startfile(os.path.join(Dir,songs[random.randint(0,5)])) 
+            os.startfile(os.path.join(Dir,songs[random.randint(0,6)])) 
         elif 'open chrome' in query:
             chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
             speak('okay sir')
@@ -104,7 +104,7 @@ if __name__ == "__main__":
             speak('okay sir')
             movie = os.listdir(dir)
             print(movie)
-            os.startfile(os.path.join(dir,movie[random.randint(3,17)]))
+            os.startfile(os.path.join(dir,movie[random.randint(4,18)]))
 
     
             
