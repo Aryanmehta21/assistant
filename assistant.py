@@ -5,6 +5,9 @@ import speech_recognition as sr
 import webbrowser
 import os
 import random
+from PIL import Image,ImageGrab
+import time
+
 
 
 
@@ -13,6 +16,11 @@ engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
+
+
+def takeScreenshot():
+        image = ImageGrab.grab()
+        image.show()
 
 
 def speak(audio):
@@ -104,8 +112,10 @@ if __name__ == "__main__":
             speak('okay sir')
             movie = os.listdir(dir)
             print(movie)
-            os.startfile(os.path.join(dir,movie[random.randint(4,18)]))
-
+            os.startfile(os.path.join(dir,movie[random.randint(0,5)]))
+        elif 'Take screenshot' in query:
+            time.sleep(2)
+            takeScreenshot()
     
             
              
